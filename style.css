@@ -7,6 +7,27 @@
     color: white;   
 }
 
-.whit{
+.light{
+    background-color: white;
+    color: black;
+}
+
+.mode,.svg{
+    display: flex;
+    height: 35px;
+    width: 30pxpx;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    /* float: inherit; */
+    border-color: purple;
     
 }
+
+#div{
+    display: flexbox;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+}
+

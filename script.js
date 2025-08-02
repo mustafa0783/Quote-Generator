@@ -22,6 +22,25 @@ let Authors = [
   "— Henry Ford",
 ];
 
-let para = document.querySelector(".quote");
+let quote = document.querySelector(".quote");
 let author = document.querySelector(".author");
-let body=document.querySelector("body");
+let body = document.querySelector("body");
+let btn = document.querySelector(".mode");
+let para = document.querySelector("p");
+let heading = document.querySelector("h1");
+
+let mode = "Light";
+
+btn.addEventListener("click", () => {
+  if (mode === "Light") {
+    body.style.backgroundColor = "black";
+    para.style.color = "white";
+    heading.style.color = "white";
+    mode = "Dark";
+  } else {
+    body.style.backgroundColor = "white";
+    para.style.color = "black";
+    heading.style.color = "black";
+    mode = "Light";
+  }
+});
