@@ -31,3 +31,19 @@
     height: 100vh;
 }
 
+p,h1{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn{
+    display: flex;
+    background-color: magenta;
+    height: 60px;
+    width: 110px;
+    justify-items: center;
+    align-items: center;
+    border-radius: 1rem;
+    align-items: center;
+}
