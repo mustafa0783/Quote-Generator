@@ -66,5 +66,3 @@ GitHub: mustafa0783
 ---
 
 ⚡ This README makes your project look **professional** and **portfolio-ready**.  
-
-Do you want me to also create a **README badge section** (like “Made with HTML/CSS/JS” icons) so it looks more stylish 
