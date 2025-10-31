@@ -55,7 +55,7 @@ changeQuote.addEventListener("click",()=>{
         author.innerText=Authors[idx]
     idx++;
 
-    if(idx==n-1){
+    if(idx==Authors.length|| idx==Quotes.length){
       alert("No more Quotes")
     }
 })
